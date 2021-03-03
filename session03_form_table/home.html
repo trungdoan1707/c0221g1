@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form & Table</title>
+</head>
+<body>
+
+
+<form action="/login" method="post">
+    <label>Username: </label>
+    <input type="text" name="username">
+    <br>
+    <label>Password: </label>
+    <input type="password" name="password" disabled value="123456" width="300px">
+    <br>
+    <label>Birthday: </label>
+    <input type="date" name="password" style="margin-left: 9px">
+    <br>
+    <label>Email: </label>
+    <input type="email" name="password">
+    <br>
+    <label>Age: </label>
+    <input type="number" name="password">
+    <br>
+    <label>Country: </label>
+    <select>
+        <option>VN</option>
+        <option>Lao</option>
+        <option>Campuchia</option>
+    </select>
+    <br>
+    <label>Sơ thích: </label>
+    <label>Cafe</label>
+    <input type="checkbox>
+    <label>Bóng Đá</label>
+    <input type="checkbox">
+    <label>Game</label>
+    <input type="checkbox">
+    <br>
+    <label>Giới tính</label>
+    <input type="radio" name="gender"> Nam
+    <input type="radio" name="gender"> Nữ
+    <input type="radio" name="gender"> Khác
+    <br>
+    <input type="color">
+    <br>
+    <input type="submit" value="Register">
+    <input type="button" value="Click me!!" onclick="alert('Click tui làm gì?')">
+</form>
+
+<!--Table-->
+<table border="1px solid">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Address</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Hoang</td>
+        <td>20</td>
+        <td>Da Nang</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Hung</td>
+        <td>25</td>
+        <td>Da Nang</td>
+    </tr>
+</table>
+
+<!--Table colspan-->
+<table border="1 solid">
+    <tr>
+        <th>Tháng</th>
+        <th>Doanh Thu</th>
+    </tr>
+    <tr>
+        <td>Một</td>
+        <td>$100</td>
+    </tr>
+    <tr>
+        <td>Hai</td>
+        <td>$80</td>
+    </tr>
+    <tr>
+        <td colspan="2">Tổng: $180</td>
+    </tr>
+</table>
+
+<!--table rowspan-->
+<table border="1 solid">
+    <tr>
+        <th>Quý</th>
+        <th>Tháng</th>
+        <th>Doanh Thu</th>
+    </tr>
+    <tr>
+        <td rowspan="3">Một</td>
+        <td>Một</td>
+        <td>$100</td>
+    </tr>
+    <tr>
+        <td>Hai</td>
+        <td>$80</td>
+    </tr>
+    <tr>
+        <td>Ba</td>
+        <td>$100</td>
+    </tr>
+    <tr>
+        <td rowspan="3">Hai</td>
+        <td>Bốn</td>
+        <td>$100</td>
+    </tr>
+    <tr>
+        <td>Năm</td>
+        <td>$80</td>
+    </tr>
+    <tr>
+        <td>Sáu</td>
+        <td>$100</td>
+    </tr>
+</table>
+</body>
+</html>
