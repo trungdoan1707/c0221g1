@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0b9cbd5-3155-4599-891c-6c74fb0b5efa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/C0221G1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session03_form_table/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session04_js_overview/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session04_js_overview/js/my_js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,13 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/session03_form_table/home.html">
+        <entry file="file://$PROJECT_DIR$/session04_js_overview/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="43" column="43" lean-forward="true" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
-              <folding>
-                <element signature="n#style#0;n#input#2;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="-119">
+              <caret line="10" column="15" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -38,6 +32,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -49,16 +44,9 @@
       <list>
         <option value="$PROJECT_DIR$/session02_git_html/home.html" />
         <option value="$PROJECT_DIR$/session03_form_table/home.html" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/C0221G1.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/session04_js_overview/my_js.js" />
+        <option value="$PROJECT_DIR$/session04_js_overview/home.html" />
+        <option value="$PROJECT_DIR$/session04_js_overview/js/my_js.js" />
       </list>
     </option>
   </component>
@@ -86,6 +74,17 @@
               <item name="C0221G1" type="462c0819:PsiDirectoryNode" />
               <item name="session03_form_table" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="C0221G1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C0221G1" type="462c0819:PsiDirectoryNode" />
+              <item name="session04_js_overview" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C0221G1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C0221G1" type="462c0819:PsiDirectoryNode" />
+              <item name="session04_js_overview" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -103,6 +102,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\duytr\Desktop\C0221G1\session04_js_overview" />
+      <recent name="C:\Users\duytr\Desktop\C0221G1\session03_form_table" />
+      <recent name="C:\Users\duytr\Desktop\C0221G1\session04_js_overview\js" />
       <recent name="C:\Users\duytr\Desktop\C0221G1\session02_git_html" />
     </key>
   </component>
@@ -118,6 +120,16 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="home.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0221G1/session04_js_overview/home.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.home.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -129,7 +141,8 @@
       <option name="presentableId" value="Default" />
       <updated>1614653007045</updated>
       <workItem from="1614653008325" duration="2162000" />
-      <workItem from="1614736863134" duration="4492000" />
+      <workItem from="1614736863134" duration="4534000" />
+      <workItem from="1614822126279" duration="3333000" />
     </task>
     <task id="LOCAL-00001" summary="session 01">
       <created>1614655308918</created>
@@ -138,23 +151,29 @@
       <option name="project" value="LOCAL" />
       <updated>1614655308919</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="session 03">
+      <created>1614741370962</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614741370962</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6654000" />
+    <option name="totallyTimeSpent" value="10029000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16741072" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16741072" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3877551" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -173,7 +192,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="session 01" />
-    <option name="LAST_COMMIT_MESSAGE" value="session 01" />
+    <MESSAGE value="session 03" />
+    <option name="LAST_COMMIT_MESSAGE" value="session 03" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/session02_git_html/home.html">
@@ -189,11 +209,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/session03_form_table/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="43" column="43" lean-forward="true" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+        <state relative-caret-position="302">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
           <folding>
             <element signature="n#style#0;n#input#2;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session04_js_overview/js/my_js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session04_js_overview/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="21" />
         </state>
       </provider>
     </entry>
