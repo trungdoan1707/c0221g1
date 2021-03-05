@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    //Khai báo 1 biến tên là number
+    let number;
+    //Gán giá trị cho biến
+    number = 10;
+
+    // var number = 10;
+    //Hiển thị number
+    // alert("Giá trị của biến: " + number);
+
+    //Khai báo lại bằng var, không thể sử dụng với let
+    // var num = 3;
+    // var num = 10;
+    // alert(num)
+
+    //sử dụng khi chưa khai báo
+
+    // var message;
+    // alert("Giá trị của message là: " + message);
+    // let message = "hello";
+    // alert("Giá trị của message là: " + message);
+
+    //scope
+    function sum() {
+        var num = 10;
+        if (num === 10){
+            var num2 = 20;
+            // alert(num + num2);
+        }
+        alert(num2);
+    }
+    alert(num);
+    // sum();
+
+    //Khai báo hằng số
+    const PI = 3.14;
+</script>
+</body>
+</html>
