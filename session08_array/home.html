@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    // let arr = ["Huynh", "Minh", "Vũ", "Hoàng"];
+    // let arr = new Array("Huynh", "Minh", "Vũ", "Hoàng");
+    // let arr = Array("Huynh", "Minh", "Vũ", "Hoàng");
+    // alert(arr[2]);
+    //  let numbers = new Array("4");
+    //  alert(numbers[0]);
+
+    // let arr = Array("Huynh", "Minh", "Vũ", "Hoàng");
+    // for (let i = 0; i < arr.length; i++){
+    //     document.writeln("Tên học viên: " + arr[i]);
+    //     document.writeln("<br>");
+    // }
+
+    // for (let i in arr){
+    //     document.writeln("Tên học viên: " + arr[i]);
+    //     document.writeln("<br>");
+    // }
+
+    // for (let element of arr){
+    //     document.writeln("Tên học viên: " + element);
+    //     document.writeln("<br>");
+    // }
+
+    // let arr = Array("Huynh", "Minh", "Vũ", "Hoàng");
+    // arr.unshift("Hùng");
+    // arr.unshift("Anh");
+    // arr.shift();
+    // arr.pop();
+
+    // arr2 = ["Thúy", "Trang", "Hiền"];
+    // arr = arr.concat(arr2);
+    // document.writeln(arr.join("-----"));
+    // let arr = Array("Huynh", "Minh", "Vũ", "Hoàng");
+    // document.writeln(arr.sort().join("-----"));
+
+    // let numbers = [5, 2, 6, 8, 22, 3, 1, 33];
+    // document.writeln(numbers.sort((a, b) => {
+    //         return b-a;
+    //     }));
+
+    let students = [
+        ["Hùng", 19, "Đà Nẵng"],
+        ["Nhân", 20, "Vinh"],
+        ["Hoàng", 20, "Quảng Nam"],
+        ["Vũ", 24, "Huế"],
+    ];
+    for (let studentIndex in students) {
+        document.writeln("Student: " + (parseInt(studentIndex) + 1));
+        document.writeln("<br>");
+        for (let s of students[studentIndex]) {
+            document.writeln(s);
+        }
+        document.writeln("<br>");
+    }
+</script>
+</body>
+</html>

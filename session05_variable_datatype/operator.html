@@ -8,10 +8,10 @@
 <input typeof="text" id="result">
 <button onclick="setValue()">Click me!!</button>
 <script>
-    function setValue(){
-        document.getElementById("result").value = "Hello";
-    }
-    let num = 10;
+    // function setValue(){
+    //     document.getElementById("result").value = "Hello";
+    // }
+    // let num = 10;
     // num++;//11
     // alert(++num);
 
@@ -34,8 +34,17 @@
     // let x = 5;
     // let y = 3;
     // let z = x++;
-    // let t = x++ + ++y +z++ + x++;
+    // alert(x);//6
+    // alert(z);// 5
+    // let t = x++ + ++y + z++ + x++;// 6+ 4 + 5 + 7
     // alert(t);
+
+    let x = 2;
+    let y = ++x;// y = 3, x = 3
+    let z = x + ++y; // x = 3, y = 4, z = 7
+    let t = x++ + y++ + z++ +x++; // 3+4+7+4
+    alert(t);
+
 </script>
 </body>
 </html>
